@@ -1,0 +1,11 @@
+- hosts: localhost
+  tasks:
+          - mail:
+                  host: "smtp.gmail.com"
+                  port: 587
+                  username: "sheikh.69-cse-17@mietjammu.in"
+                  password: "thrusday21"
+                  to: "sheikhaafaq18@gmail.com"
+                  subject: "Ansible-report"
+                  body: "  successfully cofigured"
+                  secure: starttls
